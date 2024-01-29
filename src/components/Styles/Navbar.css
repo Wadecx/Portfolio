@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1520;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 14px 28px, rgba(0, 0, 0, 0.05) 0px 10px 10px;
+}
+
+.navbar .leftSide {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #ffffff;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-left: 10%;
+}
+
+.navbar .rightSide{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+}
+.rightSide ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0;
+    color: #00011D;
+    font-size: 17px;
+}
+
+.rightSide li{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    transition: 0.24s;
+    cursor: pointer;
+}
+
+.link {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.letter {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+}
