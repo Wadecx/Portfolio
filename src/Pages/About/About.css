@@ -1,0 +1,159 @@
+.about {
+  display: flex;
+}
+
+.abt {
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 4%;
+  flex-grow: 1;
+}
+.abt h1 {
+  font-size: 40px;
+}
+
+.abt h1::after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 5px;
+  position: relative;
+  background: #15c99f;
+  margin-bottom: 5vh;
+}
+
+.abt .text {
+  display: flex;
+  flex-direction: column;
+  color: #374e73;
+  font-family: "Montserrat", sans-serif;
+  gap: 20px;
+}
+.abt h2 {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10vh;
+}
+.list li {
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.softskill {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+
+
+.skills h2::after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 5px;
+  position: relative;
+  background: #15c99f;
+  margin-bottom: 3vh;
+}
+
+.skills li {
+  padding: 5px;
+}
+
+.abt .text p {
+  font-size: 20px;
+}
+
+.lime {
+  color: #15c99f;
+}
+.blue {
+  color: #0370b6;
+}
+.limer {
+  color: #15c99f;
+  font-size: 35px;
+}
+
+.important {
+  font-weight: 700;
+}
+
+.Formations {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  width: 60%;
+  padding: 40px 60px;
+  border: 1px solid #c6c6c6;
+  border-radius: 15px;
+  gap: 20px;
+  text-align: left;
+  margin-bottom: 10vh;
+}
+
+.Formations .card {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.card .pad {
+  margin-left: 35px;
+}
+
+.Formations .card h4 {
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Formations .card h5 {
+  font-weight: 500;
+}
+
+.about .abt .logiciel {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about .abt .logiciel .web {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  margin-bottom: 10vh;
+}
+
+.web .card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logiciel .apps{
+  display: flex;
+  margin-bottom: 5vh;
+  gap: 20%;
+}
+.logiciel .apps .card{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

@@ -1,0 +1,78 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 25vw;
+  align-items: center;
+  border-right: 1px solid #c6c6c6;
+  background-color: #f6f6f6;
+  text-align: center;
+  gap: 10px;
+  position: fixed;
+}
+
+.nav .navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nav h2::before{
+  border-top: 4px solid #15c99f;
+  border-left: 4px solid #15c99f;
+  position: absolute;
+  display: block;
+  content: "";
+  width: 40px;
+  height: 33px;
+  transition: .5s ease-in-out;
+  left: 27%;
+  top: 4%;
+  
+}
+
+.nav h2{
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 5vh;
+  color: #374E73;
+}
+.nav h2::after{
+  border-bottom: 4px solid #15c99f;
+  border-right: 4px solid #15c99f;
+  position: absolute;
+  display: block;
+  content: "";
+  width: 40px;
+  height: 33px;
+  transition: .5s ease-in-out;
+  right: 27%;
+  top: 11%;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid #c6c6c6;
+  color: #2c3e50;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #15c99f;
+  transition: 0.2s ease-in-out;
+}
+
+.t
+{
+  font-family: "Clicker Script", cursive;
+  font-weight: 900;
+  font-size: 60px;
+}
