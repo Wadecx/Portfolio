@@ -46,10 +46,30 @@
   color: #374e73;
   flex-direction: column;
   align-items: center;
+  background-color: #F6F6F6;
+  padding: 10px;
+  border-radius: 10px;
+  border: #C6C6C6 1px solid;
+  height: 60vh;
+  justify-content: space-between;
+  width: fit-content;
+}
 
+.project_card a{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #15c99f;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 .project_card img{
     margin-top: 20px;
     width: 90%;
+    border: 2px solid #15c99f;
+}
+
+.type{
+  margin-top: 15px;
 }

@@ -16,6 +16,11 @@ const Project = () => {
             <div className="project_card">
               <h3>{project.title}</h3>
               <img src={project.path} alt="" />
+              <h3 className="type">Type de contenu : {project.type}</h3>
+              <p>Description : {project.desc}</p>
+              {project.link && (
+                <a href={project.link} target="_blank">Voir plus</a>
+              )}
             </div>
           ))}
         </div>
