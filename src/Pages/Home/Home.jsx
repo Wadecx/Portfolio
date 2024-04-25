@@ -26,7 +26,7 @@ const Home = () => {
             Bonjour, Je suis <span className="name">Tyron</span>
           </h1>
           <h5>
-            Je suis
+            Je suis&nbsp;
             <span style={{ fontWeight: "bold", color: "#15C99F" }}>{text}</span>
             <span style={{ color: "#15C99F" }}>
               <Cursor />
@@ -34,10 +34,10 @@ const Home = () => {
           </h5>
 
           <p>
-            En tant qu'enthousiaste de l'informatique et des langages de
+            En tant qu'adepte d'informatique et des langages de
             programmation, j'ai toujours été intrigué par les mécanismes
             sous-jacents : comment fonctionne une machine ? Quels sont les
-            processus pour développer un site web, un jeu ou une application
+            processus pour développer un site web, un jeu ou une application ?
           </p>
         </div>
 

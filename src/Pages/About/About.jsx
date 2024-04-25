@@ -17,11 +17,12 @@ const About = () => {
             Je suis MORCEL Tyron, Developpeur{" "}
             <span className="lime">multi-orientés</span>
           </h2>
-          <p>
-            J'ai développé une vraie passion pour les web-applications,
-            j'investis beaucoup de temps à construire des projets personnels
-            afin de mettre à l'épreuve mes connaissances ! Je suis quelqu’un de
-            perseverant, toute erreur est une opportunité d'apprendre.
+          <p className="para">
+            J'ai cultivé une véritable passion pour les applications web,
+            applications, et jeux vidéo et je consacre un temps considérable à
+            élaborer des projets personnels pour mettre mes compétences à
+            l'épreuve ! Ma persévérance me guide, car chaque erreur représente
+            une opportunité d'enrichir mes connaissances.
           </p>
 
           <ul className="list">
@@ -41,7 +42,7 @@ const About = () => {
             <h2>Mes Soft Skill</h2>
             <ul className="softskill">
               <li>Travail d'équipe</li>
-              <li>Autonome</li>
+              <li>Autonomie</li>
               <li>Rigueur</li>
               <li>Curiosité</li>
               <li>Motivé</li>
@@ -87,7 +88,7 @@ const About = () => {
             </div>
           </div>
           <div className="logiciel">
-                <h2>Front</h2>
+            <h2>Frontend</h2>
             <div className="web">
               <div className="card">
                 <h3>HTML</h3>
@@ -104,7 +105,7 @@ const About = () => {
               </div>
             </div>
 
-              <h2>Applis</h2>
+            <h2>Applications</h2>
             <div className="apps">
               <div className="card">
                 <h3>Unity</h3>

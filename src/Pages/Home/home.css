@@ -63,23 +63,28 @@
   }
 
   .text h5 {
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
-    text-align: center;
+    text-align: left;
     margin: auto;
     gap: 5px;
     flex-direction: row;
+    margin-bottom: 5%;
   }
 
   .text p {
     margin-top: 10%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
   }
 
   .Home h1 {
     font-size: 30px;
     margin-bottom: 5px;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 5%;
   }
 
   .Home .accueil {
@@ -98,7 +103,7 @@
   }
 
   .accueil .image img {
-    width: 170%;
+    width: 220%;
     margin-bottom: 20%;
   }
 }
