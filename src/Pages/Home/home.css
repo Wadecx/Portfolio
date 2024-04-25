@@ -56,13 +56,13 @@
 }
 
 @media (min-width: 300px) and (max-width: 550px) {
-  .Home .text{
+  .Home .text {
     width: 100%;
     font-size: 10px;
     text-align: center;
   }
 
-  .text h5{
+  .text h5 {
     font-size: 20px;
     display: flex;
     text-align: center;
@@ -79,9 +79,10 @@
     font-size: 30px;
     margin-bottom: 5px;
     text-align: center;
+    margin-top: 1%;
   }
 
-  .Home .accueil{
+  .Home .accueil {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -90,15 +91,14 @@
     width: 100%;
   }
 
-  .accueil .image{
+  .accueil .image {
     display: flex;
     justify-content: center;
     margin-bottom: 10%;
-
-
   }
 
-  .accueil .image img{
+  .accueil .image img {
     width: 170%;
+    margin-bottom: 20%;
   }
 }

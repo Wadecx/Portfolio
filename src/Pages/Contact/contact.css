@@ -47,7 +47,7 @@
 .all .otherContact {
   text-align: left;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 20px;
   font-family: "Montserrat", sans-serif;
@@ -55,7 +55,7 @@
   color: #374e73;
 }
 
-.otherContact .card{
+.otherContact .card {
   align-items: left;
   text-align: center;
   display: flex;
@@ -63,23 +63,21 @@
   flex-direction: column;
 }
 
-.card h3{
+.card h3 {
   display: flex;
   flex-direction: column;
   align-items: left;
   gap: 20px;
-
 }
 
-.card a{
+.card a {
   color: #374e73;
   text-decoration: none;
   position: relative;
-
 }
 
 .card a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 5px;
@@ -88,15 +86,13 @@
   left: 0;
   transform-origin: right;
   transform: scaleX(0);
-  transition: transform .5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .card a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
-
-
 
 .send_message input[type="text"] {
   width: fit-content;
@@ -144,11 +140,10 @@
   transition: 0.2s ease-in-out;
 }
 
-.limecolor{
+.limecolor {
   color: #15c99f;
   font-size: 40px;
 }
-
 
 @media (min-width: 300px) and (max-width: 550px) {
   .contact .contact_me {
@@ -161,11 +156,10 @@
     width: 50%;
   }
 
-
-  .contact_me .send_message{
+  .contact_me .send_message {
     padding: 10px;
     margin: auto;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 
   .send_message input[type="text"] {
@@ -183,17 +177,59 @@
   .all {
     display: flex;
     flex-direction: column;
-    margin: auto;
     gap: 10%;
   }
 
-  .otherContact .card{
+  .all .otherContact {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #374e73;
+    width: 10%;
+  }
+
+  .otherContact .card {
     width: 80%;
     margin-bottom: 5%;
   }
-  
 
-  .card a{
+  .card a {
     font-size: 15px;
+  }
+
+  .send_message textarea {
+    width: fit-content;
+    padding: 0;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    resize: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+  }
+
+  .card h3 {
+    text-align: left;
+  }
+
+  .card a::before {
+    content: "";
+    position: absolute;
+    width: 1300%;
+    height: 5px;
+    background-color: #15c99f;
+    bottom: -5px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .card a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
   }
 }
