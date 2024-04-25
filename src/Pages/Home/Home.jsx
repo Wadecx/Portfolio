@@ -7,7 +7,7 @@ const Home = () => {
   const [text] = useTypewriter({
     words: [
       " developpeur Web !",
-      " developpeur jeux videos !",
+      " developpeur de jeux vidéos !",
       " passionné d'informatique !",
       " heureux de vous rencontrer !",
     ],
@@ -34,10 +34,10 @@ const Home = () => {
           </h5>
 
           <p>
-            Étant un passionné d'informatique et du langage machinale, je me
-            suis toujours posé la question du comment ? Comment marche une
-            machine ? Comment crée t'on un site web ou un jeu ? Une Application
-            ?
+            En tant qu'enthousiaste de l'informatique et des langages de
+            programmation, j'ai toujours été intrigué par les mécanismes
+            sous-jacents : comment fonctionne une machine ? Quels sont les
+            processus pour développer un site web, un jeu ou une application
           </p>
         </div>
 

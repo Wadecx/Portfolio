@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="contact">
       <Navbar />
       <div className="contact_me">
-        <h1>Contact </h1>
+        <h1>Me contacter </h1>
 
         <div className="all">
           <form
@@ -36,11 +36,12 @@ const Contact = () => {
 
           <div className="otherContact">
             <div className="card">
-              <h3>Sur Github <FaGithub className="lime"/></h3>
-              <a href="https://github.com/Wadecx"> </a>
+              <h3><FaGithub className="limecolor"/> Sur Github</h3>
+              <a href="https://github.com/Wadecx" target="_blank">https://github.com/Wadecx</a>
             </div>
             <div className="card">
-              <h3>Par Mail <IoMdMail className="lime"/></h3>
+              <h3><IoMdMail className="limecolor"/> Par Mail</h3>
+              <a href="">tyronmorcel@gmail.com</a>
             </div>
           </div>
         </div>

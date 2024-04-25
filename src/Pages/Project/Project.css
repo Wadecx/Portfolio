@@ -18,58 +18,87 @@
 }
 
 .main h1::after {
-    content: "";
-    display: block;
-    width: 25%;
-    height: 5px;
-    position: relative;
-    background: #15c99f;
-    margin-bottom: 5vh;
-  }
+  content: "";
+  display: block;
+  width: 25%;
+  height: 5px;
+  position: relative;
+  background: #15c99f;
+  margin-bottom: 5vh;
+}
 
-  .project{
-    display: flex;
-    flex-direction: column;
-  }
+.project {
+  display: flex;
+  flex-direction: column;
+}
 
-  .project .main .cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    gap: 50px;
-    margin-bottom: 10%;
-  }
+.project .main .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 50px;
+  margin-bottom: 10%;
+  margin-right: 10%;
+}
 
-.project .main .cards .project_card{
-    display: flex;
+.project .main .cards .project_card {
+  display: flex;
   font-family: "Montserrat", sans-serif;
   color: #374e73;
   flex-direction: column;
   align-items: center;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding: 10px;
   border-radius: 10px;
-  border: #C6C6C6 1px solid;
-  height: 60vh;
+  border: #c6c6c6 1px solid;
+  height: fit-content;
   justify-content: space-between;
   width: fit-content;
 }
 
-.project_card a{
+.project_card h3 {
+  padding: 10px;
+}
+
+.project_card a {
   padding: 10px;
   text-decoration: none;
   color: white;
   background-color: #15c99f;
-  border-radius: 5px;
-  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  gap: 5px;
 }
 
-.project_card img{
-    margin-top: 20px;
-    width: 90%;
-    border: 2px solid #15c99f;
+.project p {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.type{
+.project_card img {
+  margin-top: 20px;
+  width: 90%;
+  border: 2px solid #15c99f;
+}
+
+.type {
   margin-top: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+  .project .main {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 4%;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+
+  .project .main .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-right: 10px;
+    margin-bottom: 10%;
+  }
 }

@@ -61,7 +61,6 @@
   font-size: 20px;
 }
 
-
 .skills h2::after {
   content: "";
   display: block;
@@ -147,13 +146,81 @@
   align-items: center;
 }
 
-.logiciel .apps{
+.logiciel .apps {
   display: flex;
   margin-bottom: 5vh;
   gap: 20%;
 }
-.logiciel .apps .card{
+.logiciel .apps .card {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+  .abt{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .abt h1 {
+    font-size: 30px;
+  }
+
+  .abt h2{
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .abt p{
+    width: 90%;
+  }
+
+  .lime{
+    font-size: 20px;
+  }
+
+
+
+  .abt .text .logiciel .web{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70px;
+  }
+
+  .web .card{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+  }
+
+  .logiciel h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .abt .text .logiciel .web .card img{
+    width: 30px;
+  }
+
+  .abt .text .logiciel .apps{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70px;
+
+  }
+
+  .apps .card{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 10px;
+  }
+  .abt .text .logiciel .apps .card img{
+    width: 30px;
+  }
+  
 }

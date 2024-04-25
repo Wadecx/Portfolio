@@ -1,0 +1,76 @@
+.indev {
+  display: flex;
+}
+
+.in_dev_page {
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 4%;
+  flex-grow: 1;
+
+}
+
+.indev h1 {
+  font-size: 40px;
+  color: #374e73;
+  font-family: "Montserrat", sans-serif;
+}
+
+.indev h1::after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 5px;
+  position: relative;
+  background: #15c99f;
+  margin-bottom: 5vh;
+}
+
+.indev p {
+  color: #374e73;
+  font-family: "Montserrat", sans-serif;
+  width: 70%;
+  font-size: 25px;
+}
+
+.indev .back{
+    padding: 10px;
+    background-color: #15c99f;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5%;
+}
+
+.indev a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+  .indev .in_dev_page {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 4%;
+    flex-grow: 1;
+    height: 95vh;
+  }
+
+  .in_dev_page h1{
+    font-size: 30px;
+  }
+
+  .in_dev_page p{
+    font-size: 20px;
+  }
+
+  
+}

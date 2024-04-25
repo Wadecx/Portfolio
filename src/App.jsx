@@ -5,6 +5,7 @@ import Project from "./Pages/Project/Project";
 import "./App.css";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
+import Indev from "./Pages/Indev/Indev";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact/>
   },
+  {
+    path: "/indev",
+    element: <Indev/>
+  }
 ]);
 
 function App() {

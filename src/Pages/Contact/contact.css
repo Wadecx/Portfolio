@@ -46,8 +46,8 @@
 }
 .all .otherContact {
   text-align: left;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   justify-content: center;
   gap: 20px;
   font-family: "Montserrat", sans-serif;
@@ -56,11 +56,47 @@
 }
 
 .otherContact .card{
-  align-items: center;
+  align-items: left;
   text-align: center;
   display: flex;
   gap: 20px;
+  flex-direction: column;
 }
+
+.card h3{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
+
+}
+
+.card a{
+  color: #374e73;
+  text-decoration: none;
+  position: relative;
+
+}
+
+.card a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #15c99f;
+  bottom: -5px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s ease-in-out;
+}
+
+.card a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
 
 .send_message input[type="text"] {
   width: fit-content;
@@ -108,6 +144,56 @@
   transition: 0.2s ease-in-out;
 }
 
-.lime{
+.limecolor{
   color: #15c99f;
+  font-size: 40px;
+}
+
+
+@media (min-width: 300px) and (max-width: 550px) {
+  .contact .contact_me {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    flex-grow: 1;
+    position: absolute;
+    margin-left: 10px;
+    width: 50%;
+  }
+
+
+  .contact_me .send_message{
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+  .send_message input[type="text"] {
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    outline: none;
+    transition: 0.2s ease-in-out;
+  }
+
+  .all {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10%;
+  }
+
+  .otherContact .card{
+    width: 80%;
+    margin-bottom: 5%;
+  }
+  
+
+  .card a{
+    font-size: 15px;
+  }
 }
