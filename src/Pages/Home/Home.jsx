@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import "../Home/home.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { gsap } from "gsap";
 
 const Home = () => {
   const [text] = useTypewriter({
@@ -16,6 +17,7 @@ const Home = () => {
     deleteSpeed: 40,
     delaySpeed: 3000,
   });
+
 
   return (
     <div className="Home">
@@ -34,10 +36,10 @@ const Home = () => {
           </h5>
 
           <p>
-            En tant qu'adepte d'informatique et des langages de
-            programmation, j'ai toujours été intrigué par les mécanismes
-            sous-jacents : comment fonctionne une machine ? Quels sont les
-            processus pour développer un site web, un jeu ou une application ?
+            En tant qu'adepte d'informatique et des langages de programmation,
+            j'ai toujours été intrigué par les mécanismes sous-jacents : comment
+            fonctionne une machine ? Quels sont les processus pour développer un
+            site web, un jeu ou une application ?
           </p>
         </div>
 
