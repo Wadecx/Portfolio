@@ -7,7 +7,7 @@ import { gsap } from "gsap";
 const Home = () => {
   const [text] = useTypewriter({
     words: [
-      " developpeur Web !",
+      " developpeur Frontend !",
       " developpeur de jeux vidéos !",
       " passionné d'informatique !",
       " heureux de vous rencontrer !",
