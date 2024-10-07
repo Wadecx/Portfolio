@@ -32,10 +32,10 @@ const About = () => {
             </li>
             <li>
               <span className="important">Emploi Actuel :</span>{" "}
-              <SiEdotleclerc className="blue" /> Leclerc Mont-de-Marsan
+              Etudiant ESNL Mont de Marsan
             </li>
             <li>
-              <span className="important">Age :</span> 21 ans
+              <span className="important">Age :</span> 22 ans
             </li>
           </ul>
           <div className="skills">
