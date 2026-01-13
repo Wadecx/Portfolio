@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Home from "./Pages/Home/Home";
 import Project from "./Pages/Project/Project";
 import "./App.css";
@@ -31,7 +32,12 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <RouterProvider router={router} />
+      <Analytics />
+    </>
+  );
 }
 
 export default App;
